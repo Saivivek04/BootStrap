@@ -1,0 +1,80 @@
+body{
+    margin: 0px;
+}
+
+.contain{
+    background-color: rgb(44, 29, 29);
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+.contain .ele{
+    padding: 40px 50px 20px 20px;
+}
+.contain .ele h1{
+    color: red;
+}
+.contain a{
+    text-decoration: none;
+    color: white;
+}
+.contain .ele input{
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.contain_1{
+    display: flex;
+    flex-direction: row;
+    background-color: #f5f5f5;
+}
+.contain_1 .el{
+    padding: 20px 30px 20px 20px;
+}
+.contain_1 a{
+    text-decoration: none;
+    color: black;
+}
+.contain_2 h1{
+    text-align: center;
+    color: orangered;
+    margin-top: 20px;
+}
+.contain_2 p{
+    padding: 50px 50px 30px 50px;
+}
+.contain_2 #image{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.contain_2 img{
+    width: 30vw;
+    margin: 30px;
+}
+.contain_2 .box{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    margin-left: 30px;
+}
+.l{
+    margin-left: 50px;
+    text-align: justify;
+    padding-right: 20px;
+}
+.l .btn{
+    margin: 20px 30px 20px 50px;
+}
+.l .btn:hover{
+    background-color: black;
+    color: white;
+}
+.la{
+    margin: 20px 30px 20px 0px;
+    display: flex;
+    flex-direction: row;
+}
+.la p{
+    margin: 0px 30px 20px 0px;
+}
